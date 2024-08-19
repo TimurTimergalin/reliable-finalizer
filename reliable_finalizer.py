@@ -3,7 +3,7 @@ from weakref import finalize
 
 
 class MultipleFinalizersException(Exception):
-    """Raised when trying to initialize class with multiple reliable finalizers."""
+    """Raised when trying to initialize a class with multiple reliable finalizers."""
 
 
 class ReliableFinalizer:
